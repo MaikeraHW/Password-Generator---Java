@@ -16,9 +16,9 @@ public class PassGeneratorUI extends Application {
 
         palco.setTitle("Password Generator");
 
-        Label passSize = new Label("Tap the password size:");
+        Label passSize = new Label("Tap the password size (suggested: 8)");
         TextField passSizeField = new TextField();
-        passSizeField.setText("Suggested size: 8");
+        passSizeField.setText(8);
 
         Label generatedPass = new Label("Your password is: ");
         TextField generatedPassField = new TextField();
